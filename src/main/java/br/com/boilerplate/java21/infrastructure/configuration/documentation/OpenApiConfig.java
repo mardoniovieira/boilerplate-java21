@@ -16,7 +16,7 @@ public class OpenApiConfig {
                         .description("Boilerplate Java 21")
                         .version("1.0.0"));
 
-        openAPI.addServersItem(new Server().url("http://localhost:8080"));
+        openAPI.addServersItem(new Server().url("http://localhost:8081"));
         // openAPI.addServersItem(new Server().url("https://my-dev-website.com.br/api"));
         // openAPI.addServersItem(new Server().url("https://my-qa-website.com.br/api"));
         // openAPI.addServersItem(new Server().url("https://my-hom-website.com.br/api"));

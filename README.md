@@ -16,7 +16,10 @@ Backend boilerplate microservice.
 ## Getting Started
 
 This boilerplate was developed with java 21 and spring boot 3.2.5, in addition it has some important dependencies, such
-as **lombok**, **mapstruct** and **swagger**. It also has a **unit test** created using Mockito.
+as **lombok**, **mapstruct**, **openfeign** and **swagger**. It also has a **unit test** created using Mockito.
+
+The goal of this project is to bundle useful dependencies and frameworks. These concepts are not applicable in all
+scenarios, so do not take the entire implementation literally.
 
 Swagger: http://localhost:8080/api-docs
 

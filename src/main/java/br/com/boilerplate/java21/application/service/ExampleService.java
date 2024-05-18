@@ -8,4 +8,13 @@ public interface ExampleService {
 
     Page<Example> search(Pageable page);
 
+    void getError400();
+
+    void getError404();
+
+    void getError500();
+
+    void getError500WithNullPointer();
+
+    String searchMyIp();
 }
